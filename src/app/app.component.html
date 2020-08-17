@@ -1,1 +1,18 @@
-<h3>App component</h3>
+<div class="container">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/duplicate">Duplicate Array</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/polling">Long Polling</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/theme">Theme</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="jumbotron">
+    <router-outlet></router-outlet>
+  </div>
+</div>
