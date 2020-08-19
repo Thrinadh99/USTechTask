@@ -1,0 +1,36 @@
+.btn{        
+    margin: 0 10px 10px 0;
+}
+.lightthemebutton{
+    background-color: #fff;    
+    color: #000;
+}
+.darkthemebutton{
+    background-color: #000;    
+    color: #fff;
+}
+.bluethemebutton{
+    background-color: #1e90ff;
+    color: #fff;
+}
+.redthemebutton{
+    background-color: #ff6347;
+    color: #fff;
+}
+  .main-bg {
+    background-color: var(--background-default);
+    border:1px solid black;
+    color: var(--text-default);
+  }
+  .navbar{
+      background-color: var(--navbar-default) ;
+  }
+  .navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-brand{
+      color: var(--navbar-text-default);
+  }
+  .side-nav .nav-link.active{
+      background-color: var(--button-default);
+  }
+  .footer{
+      background-color: var(--footer-default);
+  }
